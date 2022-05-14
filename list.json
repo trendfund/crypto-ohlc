@@ -1,0 +1,11 @@
+{
+  "binance": [
+    {
+      "symbol": "BTCUSDT",
+      "start": 2019,
+      "periods": [
+        "1d"
+      ]
+    }
+  ]
+}
