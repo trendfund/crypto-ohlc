@@ -12,15 +12,15 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
     - uses: actions/checkout@v2
 
-    - name: Set up Python 3.8.5
-      uses: actions/setup-python@v2
+    - name: Set up Python 3.9.9
+      uses: actions/setup-python@v4
       with:
-        python-version: 3.8.5
+        python-version: 3.9.9
 
     - name: Update list
       run: |
