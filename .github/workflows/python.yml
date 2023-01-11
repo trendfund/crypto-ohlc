@@ -22,16 +22,16 @@ jobs:
       with:
         python-version: 3.9.9
 
-    - name: Update list
-      run: |
-        git config --global user.email "anonymouse@x.com"
-        git config --global user.name "anonymouse"
+#     - name: Update list
+#       run: |
+#         git config --global user.email "anonymouse@x.com"
+#         git config --global user.name "anonymouse"
 
-        pip install ta
-        pip install pandas
+#         pip install ta
+#         pip install pandas
 
-        python binance/scripts/update-macd.py
+#         python binance/scripts/update-macd.py
 
-        git add .
-        git commit -m "update"
-        git push origin main
+#         git add .
+#         git commit -m "update"
+#         git push origin main
